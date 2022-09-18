@@ -38,6 +38,7 @@
 - [Live Demo](https://rsb-landing-page.vercel.app/)
 - This challange enables me to learn and create dedicated UI design for each and every viewport
 
+
 ### Built With
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
@@ -54,6 +55,7 @@ This application/site was created as a submission to a tech assessment. The chal
 - Responsiveness
 - The UI design will not display below the 374px max-width viewport
 - This Project is best to use with Google Chrome Browser
+- This Project is intended as a Single Page Only, but you may able to redirect to the other empty pages
 
 ## How To Use
 
