@@ -3,7 +3,7 @@
 <h1 align="center">RSB Landing Page</h1>
 
 <div align="center">
-   A responsive redesign of <a href="https://www.rsbernaldo.com/" target="_blank">rsbernaldo.com</a>.
+   My take of a responsive redesign of <a href="https://www.rsbernaldo.com/" target="_blank">rsbernaldo.com</a>.
 </div>
 
 <div align="center">
@@ -12,7 +12,7 @@
       Challenge
     </a>
     <span> | </span>
-    <a href="https://www.rsbernaldo.com/">
+    <a href="https://rsb-landing-page.vercel.app/">
       Demo
     </a>
   </h3>
@@ -35,7 +35,7 @@
 
 ![screenshot](https://github.com/georgeromarrr/rsb-landing-page/blob/1704bef8a3898a5a05cc2bba17393602e38917fd/src/assets/img/homepage.png?raw=true')
 
-- Live Demo
+- [Live Demo](https://rsb-landing-page.vercel.app/)
 - This challange enables me to learn and create dedicated UI design for each and every viewport
 
 ### Built With
