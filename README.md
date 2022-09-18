@@ -8,10 +8,6 @@
 
 <div align="center">
   <h3>
-    <a href="https://www.rsbernaldo.com/">
-      Challenge
-    </a>
-    <span> | </span>
     <a href="https://rsb-landing-page.vercel.app/">
       Demo
     </a>
