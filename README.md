@@ -13,7 +13,7 @@
     </a>
     <span> | </span>
     <a href="https://www.rsbernaldo.com/">
-      Solution
+      Demo
     </a>
   </h3>
 </div>
@@ -35,10 +35,8 @@
 
 ![screenshot](https://github.com/georgeromarrr/rsb-landing-page/blob/1704bef8a3898a5a05cc2bba17393602e38917fd/src/assets/img/homepage.png?raw=true')
 
-- Where can I see your demo?
+- Live Demo
 - This challange enables me to learn and create dedicated UI design for each and every viewport
-- What have you learned/improved?
-- Your wisdom? :)
 
 ### Built With
 
