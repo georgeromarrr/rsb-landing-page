@@ -204,7 +204,38 @@ export const SearchBar = ({ onClick }) => {
   return (
     <>
       {/* desktop */}
-      <div className="bg-white mb-2 h-[400px] hidden desktop:block large_laptop:block">
+      <div className="bg-white mb-2 h-[400px] hidden desktop:block">
+        <div className="mx-40 flex justify-center items-top pt-8 pb-5">
+          <div className="w-[800px] h-12 px-4 flex border border-sea_green">
+            <div className="self-center" disable="true">
+              <SearchIcon className="h-6 w-6 stroke-sea_green fill-sea_green" />
+            </div>
+            <input
+              type="text"
+              placeholder="Search..."
+              ref={textInput}
+              onChange={handleInput}
+              className="bg-transparent m-2 px-2 w-full placeholder:italic placeholder:tracking-wide focus:outline-0"
+            />
+            {hasValue ? (
+              <button type="button">
+                <ExitIcon
+                  className="h-5 w-5 stroke-black"
+                  onClick={handleClear}
+                  pathOne="transform origin-center -rotate-[42deg]"
+                  pathTwo="transform origin-center rotate-[42deg]"
+                />
+              </button>
+            ) : undefined}
+          </div>
+        </div>
+        <div className="w-[800px] mx-auto px-14">
+          {hasValue ? <p>See all result for '{inputValue}'</p> : ""}
+        </div>
+      </div>
+
+      {/* large_laptop */}
+      <div className="bg-white mb-2 h-[400px] hidden large_laptop:block">
         <div className="mx-40 flex justify-center items-top pt-8 pb-5">
           <div className="w-[800px] h-12 px-4 flex border border-sea_green">
             <div className="self-center" disable="true">
