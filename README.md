@@ -3,18 +3,13 @@
 <h1 align="center">RSB Landing Page</h1>
 
 <div align="center">
-   A responsive redesign of <a href="https://www.rsbernaldo.com/" target="_blank">rsbernaldo.com</a>.
+   My take of a responsive redesign of <a href="https://www.rsbernaldo.com/" target="_blank">rsbernaldo.com</a>.
 </div>
 
 <div align="center">
   <h3>
-    <span> | </span>
-    <a href="https://www.rsbernaldo.com/">
-      Challenge
-    </a>
-    <span> | </span>
-    <a href="https://www.rsbernaldo.com/">
-      Solution
+    <a href="https://rsb-landing-page.vercel.app/">
+      Demo
     </a>
   </h3>
 </div>
@@ -34,12 +29,11 @@
 
 ## Overview
 
-![screenshot]('../../src/assets/img/homepage.png')
+![screenshot](https://github.com/georgeromarrr/rsb-landing-page/blob/1704bef8a3898a5a05cc2bba17393602e38917fd/src/assets/img/homepage.png?raw=true')
 
-- Where can I see your demo?
+- [Live Demo](https://rsb-landing-page.vercel.app/)
 - This challange enables me to learn and create dedicated UI design for each and every viewport
-- What have you learned/improved?
-- Your wisdom? :)
+
 
 ### Built With
 
@@ -57,6 +51,7 @@ This application/site was created as a submission to a tech assessment. The chal
 - Responsiveness
 - The UI design will not display below the 374px max-width viewport
 - This Project is best to use with Google Chrome Browser
+- This Project is intended as a Single Page Only, but you may able to redirect to the other empty pages
 
 ## How To Use
 
@@ -66,7 +61,7 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/your-user-name/your-project-name
+$ git clone https://github.com/georgeromarrr/rsb-landing-page
 
 # Install dependencies
 $ npm install
@@ -79,7 +74,7 @@ $ npm start
 
 <!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For example -->
 
-- This Project is only intended for a submission for the tech assessment
+- This Project is only intended as a submission for tech assessment
 - [Node.js](https://nodejs.org/)
 
 ## Contact
