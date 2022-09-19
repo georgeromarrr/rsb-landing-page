@@ -104,7 +104,7 @@ export const SubNav = () => {
   return (
     <>
       {/* desktop */}
-      <div className="bg-white mb-2 hidden desktop:block">
+      <div className="bg-white mb-2 hidden desktop:block ">
         <div className="mx-40 p-1">
           <div className="flex justify-center">
             <div className="p-2 px-4 tracking-wide uppercase font-medium cursor-pointer h-[87px]">
@@ -127,7 +127,7 @@ export const SubNav = () => {
       </div>
 
       {/* laptop */}
-      <div className="hidden large_laptop:block laptop:block">
+      <div className="hidden laptop:block large_laptop:block">
         <div className="flex flex-col gap-y-3 px-1 text-base">
           {sub_navigation.map((item) => (
             <div
@@ -144,7 +144,7 @@ export const SubNav = () => {
       </div>
 
       {/* tablet */}
-      <div className="hidden large_laptop:block tablet:block z-0">
+      <div className="hidden tablet:block z-0">
         <div className="flex flex-col gap-y-3 px-1 text-base">
           {sub_navigation.map((item) => (
             <div
@@ -161,7 +161,7 @@ export const SubNav = () => {
       </div>
 
       {/* tablet */}
-      <div className="hidden large_laptop:block mobile:block z-0">
+      <div className="hidden mobile:block z-0">
         <div className="flex flex-col gap-y-3 px-1 text-base">
           {sub_navigation.map((item) => (
             <div
@@ -204,38 +204,7 @@ export const SearchBar = ({ onClick }) => {
   return (
     <>
       {/* desktop */}
-      <div className="bg-white mb-2 h-[400px] hidden desktop:block">
-        <div className="mx-40 flex justify-center items-top pt-8 pb-5">
-          <div className="w-[800px] h-12 px-4 flex border border-sea_green">
-            <div className="self-center" disable="true">
-              <SearchIcon className="h-6 w-6 stroke-sea_green fill-sea_green" />
-            </div>
-            <input
-              type="text"
-              placeholder="Search..."
-              ref={textInput}
-              onChange={handleInput}
-              className="bg-transparent m-2 px-2 w-full placeholder:italic placeholder:tracking-wide focus:outline-0"
-            />
-            {hasValue ? (
-              <button type="button">
-                <ExitIcon
-                  className="h-5 w-5 stroke-black"
-                  onClick={handleClear}
-                  pathOne="transform origin-center -rotate-[42deg]"
-                  pathTwo="transform origin-center rotate-[42deg]"
-                />
-              </button>
-            ) : undefined}
-          </div>
-        </div>
-        <div className="w-[800px] mx-auto px-14">
-          {hasValue ? <p>See all result for '{inputValue}'</p> : ""}
-        </div>
-      </div>
-
-      {/* large_laptop */}
-      <div className="bg-white mb-2 h-[400px] hidden large_laptop:block">
+      <div className="bg-white mb-2 h-[400px] hidden desktop:block large_laptop:block">
         <div className="mx-40 flex justify-center items-top pt-8 pb-5">
           <div className="w-[800px] h-12 px-4 flex border border-sea_green">
             <div className="self-center" disable="true">
